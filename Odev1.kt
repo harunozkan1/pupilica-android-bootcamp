@@ -1,10 +1,9 @@
 package com.example.kotlindersleri.degiskenler
 
 fun main() {
-    // Değişken tanımlamaları (Sağlanan listeden)
     var sehir: String = "Yozgat"
     var ulke: String = "Turkiye"
-    var telefon: Long = 3541234567L // Long literal should end with L
+    var telefon: Long = 3541234567L
     var postaKodu: Int = 66000
     var email: String = "harun@mynet.com"
     var meslek: String = "Manifaturacı"
@@ -16,7 +15,7 @@ fun main() {
     var medeniDurum: String = "Bekar"
     var urunYorumu: String = "Bir beden buyuk alin"
     var odemeTarihi: String = "01/05/2025"
-    var odeme: Int = 3 // Değişken adı 'odeme' (ödeme miktarı mı, sayısı mı?). Tanımlandığı gibi kullandım.
+    var odeme: Int = 3
     var siparisAdeti: Int = 3
     var arabaModeli: String = "A3"
     var kitapAdi: String = "Simyaci"
@@ -29,7 +28,7 @@ fun main() {
     var yemekFiyati: Double = 273.25
     var marka: String = "Louis Vuitton"
     var muzikAdi: String = "Kenan Dogulu:Shake it up Sekerim"
-    var videoSuresi: Int = 12 // Varsayılan olarak dakika veya saniye cinsinden, Int uygun.
+    var videoSuresi: Int = 12
     var urunPuani: Double = 4.7
     var resimAdi: String = "images.jpeg"
     var dosyaFormati: String = "pdf"
@@ -37,7 +36,7 @@ fun main() {
     var renkKodu: String = "#54CAAB"
     var telefonModeli: String = "LG G3"
     var ekranBoyutu: String = "5 inç"
-    var agirlik: Int = 73 // Varsayılan olarak kg veya lbs, Int uygun.
+    var agirlik: Int = 73
     var ulusalGun: String = "24 Kasim"
     var tatilGunu: String = "Pazar"
     var rezervasyonTarihi: String = "16 Haziran 1950"
@@ -45,11 +44,10 @@ fun main() {
     var otobusHatti: String = "29D"
     var kalanDakika: Int = 3
     var takipKodu: String = "A1232415"
-    var kuponSuresi: Int = 7 // Varsayılan olarak gün, Int uygun.
+    var kuponSuresi: Int = 7
     var kuponKodu: String = "KL4VY3"
     var faturaAdresi: String = "Zonguldak, Devrek, Kamelya Sk. No: 10"
 
-    println("--- Değişken Değerleri ---")
     println("Şehir: $sehir")
     println("Ülke: $ulke")
     println("Telefon: $telefon")
@@ -63,7 +61,7 @@ fun main() {
     println("Maaş: $maas")
     println("Medeni Durum: $medeniDurum")
     println("Ürün Yorumu: $urunYorumu")
-    println("Ödeme Bilgisi (Int): $odeme") // 'odeme' değişkeninin çıktısı
+    println("Ödeme Bilgisi (Int): $odeme")
     println("Sipariş Adeti: $siparisAdeti")
     println("Araba Modeli: $arabaModeli")
     println("Kitap Adı: $kitapAdi")
@@ -95,5 +93,4 @@ fun main() {
     println("Kupon Süresi (Int): $kuponSuresi")
     println("Kupon Kodu: $kuponKodu")
     println("Fatura Adresi: $faturaAdresi")
-    println("-------------------------")
 }
