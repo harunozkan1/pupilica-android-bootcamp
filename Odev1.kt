@@ -1,12 +1,12 @@
 package com.example.kotlindersleri.degiskenler
 
 fun main() {
-    var sehir:String ="Yozgat"
-    var ulke:String ="Turkiye"
-    var telefon:Long =3541234567
-    var postaKodu:Int = 66000
-    var email:String="harun@mynet.com"
-    println("Adres: Yozgat, Merkez, Fatih Mahallesi, Lale Sokak No: 5, Daire: 8\nSehir: $sehir\nUlke: $ulke\nPosta Kodu: $postaKodu\nTelefon: $telefon\nE-posta: $email")
+    // Değişken tanımlamaları (Sağlanan listeden)
+    var sehir: String = "Yozgat"
+    var ulke: String = "Turkiye"
+    var telefon: Long = 3541234567L // Long literal should end with L
+    var postaKodu: Int = 66000
+    var email: String = "harun@mynet.com"
     var meslek: String = "Manifaturacı"
     var stokMiktari: Int = 99
     var musteriAdi: String = "Darth Vader"
@@ -16,7 +16,7 @@ fun main() {
     var medeniDurum: String = "Bekar"
     var urunYorumu: String = "Bir beden buyuk alin"
     var odemeTarihi: String = "01/05/2025"
-    var odeme: Int = 3
+    var odeme: Int = 3 // Değişken adı 'odeme' (ödeme miktarı mı, sayısı mı?). Tanımlandığı gibi kullandım.
     var siparisAdeti: Int = 3
     var arabaModeli: String = "A3"
     var kitapAdi: String = "Simyaci"
@@ -29,7 +29,7 @@ fun main() {
     var yemekFiyati: Double = 273.25
     var marka: String = "Louis Vuitton"
     var muzikAdi: String = "Kenan Dogulu:Shake it up Sekerim"
-    var videoSuresi: Int = 12
+    var videoSuresi: Int = 12 // Varsayılan olarak dakika veya saniye cinsinden, Int uygun.
     var urunPuani: Double = 4.7
     var resimAdi: String = "images.jpeg"
     var dosyaFormati: String = "pdf"
@@ -37,7 +37,7 @@ fun main() {
     var renkKodu: String = "#54CAAB"
     var telefonModeli: String = "LG G3"
     var ekranBoyutu: String = "5 inç"
-    var agirlik: Int = 73
+    var agirlik: Int = 73 // Varsayılan olarak kg veya lbs, Int uygun.
     var ulusalGun: String = "24 Kasim"
     var tatilGunu: String = "Pazar"
     var rezervasyonTarihi: String = "16 Haziran 1950"
@@ -45,7 +45,55 @@ fun main() {
     var otobusHatti: String = "29D"
     var kalanDakika: Int = 3
     var takipKodu: String = "A1232415"
-    var kuponSuresi: Int = 7
+    var kuponSuresi: Int = 7 // Varsayılan olarak gün, Int uygun.
     var kuponKodu: String = "KL4VY3"
     var faturaAdresi: String = "Zonguldak, Devrek, Kamelya Sk. No: 10"
+
+    println("--- Değişken Değerleri ---")
+    println("Şehir: $sehir")
+    println("Ülke: $ulke")
+    println("Telefon: $telefon")
+    println("Posta Kodu: $postaKodu")
+    println("E-posta: $email")
+    println("Meslek: $meslek")
+    println("Stok Miktarı: $stokMiktari")
+    println("Müşteri Adı: $musteriAdi")
+    println("Bakiye: $bakiye")
+    println("Doğum Günü: $dogumGunu")
+    println("Maaş: $maas")
+    println("Medeni Durum: $medeniDurum")
+    println("Ürün Yorumu: $urunYorumu")
+    println("Ödeme Bilgisi (Int): $odeme") // 'odeme' değişkeninin çıktısı
+    println("Sipariş Adeti: $siparisAdeti")
+    println("Araba Modeli: $arabaModeli")
+    println("Kitap Adı: $kitapAdi")
+    println("Yayınlama Tarihi: $yayinlamaTarihi")
+    println("İndirim Miktarı: $indirimMiktari")
+    println("Oda Sayısı: $odaSayisi")
+    println("Enlem: $enlem")
+    println("Boylam: $boylam")
+    println("Ürün Adı: $urunAdi")
+    println("Yemek Fiyatı: $yemekFiyati")
+    println("Marka: $marka")
+    println("Müzik Adı: $muzikAdi")
+    println("Video Süresi (Int): $videoSuresi")
+    println("Ürün Puanı: $urunPuani")
+    println("Resim Adı: $resimAdi")
+    println("Dosya Formatı: $dosyaFormati")
+    println("Renk: $renk")
+    println("Renk Kodu: $renkKodu")
+    println("Telefon Modeli: $telefonModeli")
+    println("Ekran Boyutu: $ekranBoyutu")
+    println("Ağırlık (Int): $agirlik")
+    println("Ulusal Gün: $ulusalGun")
+    println("Tatil Günü: $tatilGunu")
+    println("Rezervasyon Tarihi: $rezervasyonTarihi")
+    println("Sokak Adı: $sokakAdi")
+    println("Otobüs Hattı: $otobusHatti")
+    println("Kalan Dakika: $kalanDakika")
+    println("Takip Kodu: $takipKodu")
+    println("Kupon Süresi (Int): $kuponSuresi")
+    println("Kupon Kodu: $kuponKodu")
+    println("Fatura Adresi: $faturaAdresi")
+    println("-------------------------")
 }
